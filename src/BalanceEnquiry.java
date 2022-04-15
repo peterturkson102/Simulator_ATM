@@ -3,12 +3,12 @@ package src;
 import java.util.*;
 import javax.swing.*;
 import java.awt.*;
-class BalanceEnquiry extends JFrame
+public class BalanceEnquiry extends JFrame
 {
 	public int accno,abal,lbal;
 	
 	Container c1;	
-	BalanceEnquiry(int acc)
+	public BalanceEnquiry(int acc)
 	{
 		this.accno=acc;
 		Query q=new Query();

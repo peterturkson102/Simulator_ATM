@@ -1,3 +1,5 @@
+import src.*;
+
 import java.awt.*;
 import java.awt.Color;
 import javax.swing.*;

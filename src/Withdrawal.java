@@ -2,9 +2,10 @@ package src;
 
 public class Withdrawal
 {
-	int accno,amount,current_abal,prev_abal,current_lbal,prev_lbal;
+	public int current_abal;
+	int accno,amount,prev_abal,current_lbal,prev_lbal;
 	
-	Withdrawal(int accno,int amount)
+	public Withdrawal(int accno, int amount)
 	{
 		this.accno=accno;
 		this.amount=amount;

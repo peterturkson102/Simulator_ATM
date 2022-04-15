@@ -7,7 +7,7 @@ public class Deposit
 {
 	int accno,amount,current_lbal,prev_lbal;
 	
-	Deposit(int accno,int amount)
+	public Deposit(int accno, int amount)
 	{
 		this.accno=accno;
 		this.amount=amount;
